@@ -1,0 +1,48 @@
+.leftie {
+	background-color: blue;
+}
+.centie {
+	background-color: green;
+}
+.rightie {
+	background-color: red;
+}
+.sidemenu {
+	position: fixed;
+	left: 0;
+	top: 50%;
+}
+li {
+	display: inline;
+}
+.nav {
+	background-color: #dddddd;
+	padding: 5px;
+	text-align: center;
+	position: fixed;
+	top: 0%
+}
+.nav a {
+	display: block;
+	color: white;
+	padding: 5px;
+}
+
+.pull-left{ 
+	float: left;
+	width: 50%;
+}
+.pull-right{
+	float: right;
+	width: 50%;
+}
+.three{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+.two{
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2w;
+}
